@@ -1,0 +1,69 @@
+.div_tutorial{
+    background-color: rgb(249, 250, 250);
+    color: rgb(48, 45, 45);
+    padding-top: 6rem;
+}
+
+center h2{
+    font-family: 'Poppins', sans-serif;
+font-size: 30px;
+
+padding-top: 2rem;
+padding-bottom:6rem ;
+}
+
+
+video{
+width: 100%;
+height: auto;
+padding-bottom:0.5rem ;
+ }
+
+ .tutorial{
+    padding-bottom: 1rem;
+    font-family: 'Poppins';
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap:60px 10px;
+ }
+
+.video{
+    margin: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+ }
+ .video h3{
+   margin-left: 30px;
+ }
+
+ .video:hover{
+    border-radius: 10px;
+  box-shadow: 1px 0px 20px #dfe6f7e1,-1px 0px 20px #e8e9ffe8;
+ }
+
+
+ .bottom img{
+    margin-right:6px ;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    }
+ .view p{
+    margin: 0px 1rem;
+  } 
+.user{
+  
+   
+   font-size: 14px;
+}
+.view{
+    display: flex;
+   
+}

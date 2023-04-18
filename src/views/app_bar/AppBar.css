@@ -1,0 +1,127 @@
+
+.navigation{
+  position: relative;
+  z-index: 999;
+  display: flex;
+  transition: top 0.3s ease-in-out;
+  padding-top: 2rem;
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+
+.navigation_add_fixed{
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  width: 89.58%;
+  background-color: transparent;
+  transition: top 0.3s ease-in-out;
+  padding-top: 2rem;
+  justify-content: space-between;
+  align-items: center; 
+  backdrop-filter: blur(10px);
+}
+
+
+
+
+.ul_style{
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  display: flex;
+}
+
+.ul_style li 
+{
+  margin: 0px 2rem;
+  transition: color 0.3s ease-out; 
+}
+
+.ul_style li a{
+  text-decoration: none;
+  color: black;
+   
+}
+.ul_style li:hover a
+{
+  cursor: pointer;
+ color: rgb(21, 116, 240);
+}
+
+.logo{
+  font-size: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: orange;
+  transition:  color 0.3s ease-out;
+  cursor: pointer;
+}
+
+.menu{
+display: flex;
+align-items: center;
+}
+
+
+.circle{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #817e7e;
+  background-color: blueviolet;
+}
+
+.detail_service{
+  font-size: 15px;
+  padding: 2rem 0rem;
+  position: absolute;
+  background: rgba(255, 255, 255,0.95);
+  border-radius: 10px;
+  list-style: none;
+  display: none;
+  right: 60px;
+  transition: display 0.1s ease-in-out;
+
+}
+
+.ul_style li:hover .detail_service{
+display: flex;
+
+}
+
+li h4{
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+.web_style{
+  height: fit-content;
+ 
+ border-radius: 10px;
+ padding: 1rem;
+}
+/* .web_style:hover{
+  box-shadow: 1px 1px 20px #817e7e77,1px 1px 20px #817e7e77;
+} */
+.web_style ul li{
+  cursor: pointer;
+  list-style: none;
+  transition: background-color 0.2s ease-in-out;
+  margin: 4px 0px;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+ .major li:hover{
+  background-color: rgba(26, 18, 18, 0.849);
+  color: orange;
+}
+h5{
+  color: blue;
+  font-size: 15px;
+}
+.service_{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,50 @@
+
+.blue_servies{
+    margin-top:6rem ;
+padding: 2rem;
+
+}
+.blue_servies h2{
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+color: blue;
+padding-bottom:6rem ;
+}
+
+.servies{
+    display: flex;
+
+}
+.card_design{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+ padding: 1rem;
+ margin: 0.5rem;
+ /* background-color: #e6e2e2; */
+ border-radius: 10px;
+
+}
+.card_design:hover{
+    box-shadow: 1px 1px 10px  #9b9b9b8c,1px 1px 10px #9b9b9b8c;
+}
+.card_design .icon{
+    margin: 1rem 0px;
+  
+}
+.card_design h4{
+    font-size: 17px;
+    font-family: 'Poppins';
+    margin: 0.5rem 0.3rem;
+}
+.card_design p{
+    font-family: 'Poppins';
+    word-spacing: 0.5mm;
+    color: #000000ad;
+}
+.btn1{
+    margin: 15px 0px;
+    transform: translateX(-10px);
+}

@@ -1,0 +1,58 @@
+.right_socialmedia{
+    position: fixed;
+    left: 0;
+    top: 30vh;
+    
+}
+.right_socialmedia ul{
+    list-style: none;
+}
+.right_socialmedia ul li{
+    cursor: pointer;
+width:50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+transition: width 0.3s;
+}
+.right_socialmedia ul li:hover p{
+    display: block;
+}
+.right_socialmedia ul li:hover {
+width:100px;
+border-radius: 2px;
+
+}
+.right_socialmedia ul li p{
+    display: none;
+    padding-right: 5px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.telegram{
+
+    background-color:#0088cc ;
+  
+}
+.linkdin{
+    background-color: #0077d5;
+}
+.facebook{
+background-color: #3b5998;
+}
+.youtube{
+background-color: red;
+}
+.github{
+    background-color: #333;
+}
+.google{
+    background-color: rgb(243, 77, 77); 
+}
+
+
+

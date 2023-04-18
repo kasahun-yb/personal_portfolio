@@ -1,0 +1,41 @@
+.mainpage{
+    display: flex;
+    width: auto;
+    padding-top: 100px;
+    align-items: center;
+    font-family: 'popins';
+}
+.left .right{
+width: 50%;
+}
+.left  h1{
+
+padding: 50px 0px;
+font-family: 'Poppins', sans-serif;
+color: blue;
+}
+.left h4{
+    font-family: 'Poppins', sans-serif;
+    color: #1414148f;
+}
+
+.btn
+{
+    margin-top: 70px;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(10px);
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: blue;
+    color: white;
+    transition: background-color 0.1s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(109, 31, 253);
+}
+
+
